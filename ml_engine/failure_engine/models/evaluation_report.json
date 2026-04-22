@@ -1,0 +1,28 @@
+{
+  "metrics_model": {
+    "name": "RandomForest",
+    "accuracy": 0.9857,
+    "precision": 0.9949,
+    "recall": 0.9898,
+    "f1": 0.9924,
+    "roc_auc": 0.998
+  },
+  "log_model": {
+    "name": "RF",
+    "top1_accuracy": 0.7143,
+    "top3_accuracy": 0.9048,
+    "f1_macro": 0.7098
+  },
+  "trace_model": {
+    "name": "GAT",
+    "top1_accuracy": 0.319,
+    "f1_macro": 0.3466
+  },
+  "fusion_model": {
+    "name": "Stacking",
+    "binary_f1": 1.0,
+    "roc_auc": 1.0,
+    "root_cause_top1": 1.0,
+    "root_cause_f1_macro": 1.0
+  }
+}

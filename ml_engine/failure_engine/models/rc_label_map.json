@@ -1,0 +1,17 @@
+{
+  "media-service": "media-service",
+  "text-service": "text-service",
+  "user-service": "user-service",
+  "home-timeline_20251104_004905_metrics_2025": "home-timeline-service",
+  "social-graph_20251104_013615_metrics_2025": "social-graph-service",
+  "user-timeline_20251104_011238_metrics_2025": "user-timeline-service",
+  "none": "none",
+  "system": "system",
+  "media_20251104_000111_metrics_2025": "media",
+  "socialgraph_20251104_002506_metrics_2025": "social-graph-service",
+  "usertimeline_20251103_233717_metrics_2025": "user-timeline-service",
+  "travel-service": "travel-service",
+  "auth-service": "auth-service",
+  "database": "database",
+  "gateway-service": "gateway-service"
+}

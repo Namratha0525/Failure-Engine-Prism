@@ -1,0 +1,1472 @@
+[
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "socialgraph_20251104_002506_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "social-graph-service \u2192 user-service \u2192 compose-post-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "text-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "text-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "auth-service",
+    "Failure_Type": "security_check",
+    "Propagation_Path": "auth-service \u2192 gateway-service \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "text-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "text-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "usertimeline_20251103_233717_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "home-timeline_20251104_004905_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "home-timeline_20251104_004905_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "auth-service",
+    "Failure_Type": "security_check",
+    "Propagation_Path": "auth-service \u2192 gateway-service \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "travel-service",
+    "Failure_Type": "exception_injection",
+    "Propagation_Path": "travel-service \u2192 route-service \u2192 station-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-timeline_20251104_011238_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "pod_kill",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "travel-service",
+    "Failure_Type": "travel_failure",
+    "Propagation_Path": "travel-service \u2192 route-service \u2192 station-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "home-timeline_20251104_004905_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "home-timeline_20251104_004905_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-timeline_20251104_011238_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "pod_kill",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "connection_pool",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "travel-service",
+    "Failure_Type": "exception_injection",
+    "Propagation_Path": "travel-service \u2192 route-service \u2192 station-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "connection_pool",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "pod_kill",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "social-graph_20251104_013615_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "social-graph_20251104_013615_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "dns_failure",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "travel-service",
+    "Failure_Type": "travel_failure",
+    "Propagation_Path": "travel-service \u2192 route-service \u2192 station-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "usertimeline_20251103_233717_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "socialgraph_20251104_002506_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "social-graph-service \u2192 user-service \u2192 compose-post-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "auth-service",
+    "Failure_Type": "security_check",
+    "Propagation_Path": "auth-service \u2192 gateway-service \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "dns_failure",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "pod_kill",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "travel-service",
+    "Failure_Type": "exception_injection",
+    "Propagation_Path": "travel-service \u2192 route-service \u2192 station-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "dns_failure",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "social-graph_20251104_013615_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "social-graph_20251104_013615_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "connection_pool",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "social-graph_20251104_013615_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "social-graph_20251104_013615_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "connection_pool",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "travel-service",
+    "Failure_Type": "travel_failure",
+    "Propagation_Path": "travel-service \u2192 route-service \u2192 station-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-timeline_20251104_011238_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "connection_pool",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "dns_failure",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "auth-service",
+    "Failure_Type": "security_check",
+    "Propagation_Path": "auth-service \u2192 gateway-service \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "dns_failure",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-timeline_20251104_011238_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "dns_failure",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "travel-service",
+    "Failure_Type": "exception_injection",
+    "Propagation_Path": "travel-service \u2192 route-service \u2192 station-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "transaction_timeout",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "socialgraph_20251104_002506_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "social-graph-service \u2192 user-service \u2192 compose-post-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "usertimeline_20251103_233717_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "dns_failure",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "usertimeline_20251103_233717_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-timeline_20251104_011238_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "transaction_timeout",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "text-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "text-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "social-graph_20251104_013615_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "social-graph_20251104_013615_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "transaction_timeout",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "usertimeline_20251103_233717_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "home-timeline_20251104_004905_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "home-timeline_20251104_004905_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "text-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "text-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "pod_kill",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-timeline_20251104_011238_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "pod_kill",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "home-timeline_20251104_004905_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "home-timeline_20251104_004905_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "auth-service",
+    "Failure_Type": "security_check",
+    "Propagation_Path": "auth-service \u2192 gateway-service \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "transaction_timeout",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "connection_pool",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "home-timeline_20251104_004905_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "home-timeline_20251104_004905_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "pod_kill",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "social-graph_20251104_013615_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "social-graph_20251104_013615_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-timeline_20251104_011238_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "auth-service",
+    "Failure_Type": "security_check",
+    "Propagation_Path": "auth-service \u2192 gateway-service \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "pod_kill",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "transaction_timeout",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "socialgraph_20251104_002506_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "social-graph-service \u2192 user-service \u2192 compose-post-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "socialgraph_20251104_002506_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "social-graph-service \u2192 user-service \u2192 compose-post-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "connection_pool",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "transaction_timeout",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "usertimeline_20251103_233717_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "dns_failure",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-timeline_20251104_011238_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "travel-service",
+    "Failure_Type": "exception_injection",
+    "Propagation_Path": "travel-service \u2192 route-service \u2192 station-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "auth-service",
+    "Failure_Type": "security_check",
+    "Propagation_Path": "auth-service \u2192 gateway-service \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "home-timeline_20251104_004905_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "home-timeline_20251104_004905_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "dns_failure",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-timeline_20251104_011238_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "auth-service",
+    "Failure_Type": "security_check",
+    "Propagation_Path": "auth-service \u2192 gateway-service \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "auth-service",
+    "Failure_Type": "security_check",
+    "Propagation_Path": "auth-service \u2192 gateway-service \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "text-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "text-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "transaction_timeout",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "connection_pool",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "connection_pool",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "travel-service",
+    "Failure_Type": "travel_failure",
+    "Propagation_Path": "travel-service \u2192 route-service \u2192 station-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "dns_failure",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "cpu_contention",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "connection_pool",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "usertimeline_20251103_233717_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "social-graph_20251104_013615_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "social-graph_20251104_013615_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "usertimeline_20251103_233717_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "disk_stress",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "transaction_timeout",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-timeline_20251104_011238_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "network_loss",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "system",
+    "Failure_Type": "pod_kill",
+    "Propagation_Path": "infrastructure \u2192 all-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-timeline_20251104_011238_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "user-service",
+    "Failure_Type": "code_stop",
+    "Propagation_Path": "user-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "media_20251104_000111_metrics_2025",
+    "Failure_Type": "service_kill",
+    "Propagation_Path": "media-service \u2192 compose-post-service \u2192 home-timeline-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "database",
+    "Failure_Type": "connection_pool",
+    "Propagation_Path": "database \u2192 data-services \u2192 api-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "social-graph_20251104_013615_metrics_2025",
+    "Failure_Type": "cache_limit",
+    "Propagation_Path": "social-graph_20251104_013615_metrics_2025 \u2192 dependent-services",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "YES",
+    "Root_Cause_Service": "gateway-service",
+    "Failure_Type": "http_abort",
+    "Propagation_Path": "gateway-service \u2192 preserve-service \u2192 order-service",
+    "Confidence": 1.0
+  },
+  {
+    "Failure": "NO",
+    "Root_Cause_Service": "none",
+    "Failure_Type": "normal",
+    "Propagation_Path": "N/A",
+    "Confidence": 1.0
+  }
+]

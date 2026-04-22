@@ -13,7 +13,7 @@
     "prisma:seed": "node prisma/seed.js",
     "prisma:studio": "npx prisma studio",
     "test": "jest --passWithNoTests"
-  },,,
+  },
   "keywords": ["microservices", "failure-prediction", "telemetry", "ml"],
   "author": "",
   "license": "ISC",

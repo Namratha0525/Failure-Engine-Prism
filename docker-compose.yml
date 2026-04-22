@@ -52,7 +52,7 @@ services:
       PORT: 3001
       DATABASE_URL: postgresql://${DB_USER:-postgres}:${DB_PASSWORD:-postgres}@database:5432/${DB_NAME:-prism_db}
       CORS_ORIGIN: http://localhost:3000
-      ML_SERVICE_URL: ${ML_SERVICE_URL:-http://localhost:8000}
+      ML_SERVICE_URL: http://failure_engine:8000
       ML_SERVICE_TIMEOUT: 10000
       ML_SERVICE_RETRIES: 3
       LOG_LEVEL: ${LOG_LEVEL:-debug}
@@ -131,6 +131,24 @@ services:
       - "3002:3000"
     depends_on:
       - prometheus
+    networks:
+      - prism_network
+
+  # ═══════════════════════════════════════════════════
+  # Multimodal Failure Intelligence Engine (ML API)
+  # ═══════════════════════════════════════════════════
+  failure_engine:
+    build:
+      context: ./ml_engine
+      dockerfile: Dockerfile
+    container_name: prism_failure_engine
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:8000/docs']
+      interval: 10s
+      timeout: 5s
+      retries: 5
     networks:
       - prism_network
 
